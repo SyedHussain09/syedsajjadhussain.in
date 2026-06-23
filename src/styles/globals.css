@@ -42,8 +42,11 @@
 
 html,
 body {
+  width: 100%;
   max-width: 100%;
   overflow-x: hidden;
+  overscroll-behavior-x: none;
+  touch-action: pan-y;
 }
 
 html {
@@ -59,16 +62,24 @@ body {
   font-family: var(--font-geist), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   text-rendering: optimizeLegibility;
   overflow-wrap: break-word;
+  position: relative;
 }
 
 main {
+  width: 100%;
+  max-width: 100%;
   min-width: 0;
+  overflow-x: hidden;
 }
 
 img,
 svg,
 video,
 canvas {
+  max-width: 100%;
+}
+
+body > * {
   max-width: 100%;
 }
 
@@ -154,6 +165,14 @@ textarea {
 .thin-scrollbar::-webkit-scrollbar-thumb {
   background: rgba(15, 118, 110, 0.45);
   border-radius: 99px;
+}
+
+@media (max-width: 639px) {
+  *,
+  *::before,
+  *::after {
+    max-width: 100vw;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

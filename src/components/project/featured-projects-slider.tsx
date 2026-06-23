@@ -20,7 +20,7 @@ export function FeaturedProjectsSlider({ projects }: { projects: Project[] }) {
 
   return (
     <div className="space-y-4">
-      <div className="flex justify-end gap-2">
+      <div className="hidden justify-end gap-2 md:flex">
         <Button type="button" variant="secondary" size="icon" onClick={() => scroll("left")} aria-label="Previous project">
           <ChevronLeft className="size-5" />
         </Button>
@@ -30,12 +30,12 @@ export function FeaturedProjectsSlider({ projects }: { projects: Project[] }) {
       </div>
       <div
         ref={ref}
-        className="flex snap-x gap-4 overflow-x-auto pb-4 thin-scrollbar sm:gap-5"
+        className="grid gap-5 md:flex md:snap-x md:overflow-x-auto md:pb-4 md:thin-scrollbar"
         tabIndex={0}
         aria-label="Featured AI projects slider"
       >
         {projects.map((project) => (
-          <div key={project.slug} className="w-[min(86vw,420px)] max-w-full shrink-0 snap-start">
+          <div key={project.slug} className="w-full min-w-0 md:w-[min(86vw,420px)] md:max-w-full md:shrink-0 md:snap-start">
             <ProjectCard project={project} compact />
           </div>
         ))}
