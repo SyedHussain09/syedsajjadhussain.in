@@ -4,10 +4,11 @@ import { certificates } from "@/data/certificates";
 import { createMetadata } from "@/lib/seo";
 
 export const metadata = createMetadata({
-  title: "Certificates",
+  title: "Certificates & Applied AI Training",
   description:
-    "Selected certificate gallery for Syed Sajjad Hussain including micro1 Applied AI Engineer, Google Startup School, Coursera machine learning, Python, GenAI hackathon participation, and applied AI training records.",
-  path: "/certificates"
+    "Selected certificates and training records for Syed Sajjad Hussain across Applied AI, GenAI engineering, machine learning, Python, and startup programs.",
+  path: "/certificates",
+  keywords: ["Applied AI certificate", "Generative AI training", "machine learning certificate", "Python certificate"]
 });
 
 export default function CertificatesPage() {

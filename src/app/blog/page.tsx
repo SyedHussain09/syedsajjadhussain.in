@@ -5,10 +5,11 @@ import { SectionHeading } from "@/components/ui/section-heading";
 import { createMetadata } from "@/lib/seo";
 
 export const metadata = createMetadata({
-  title: "Blog",
+  title: "Applied AI Blog: RAG, Fine-Tuning, LLM Evaluation",
   description:
-    "Simple technical blog posts by Syed Sajjad Hussain on RAG, fine-tuning, vector databases, AI analytics, prompt engineering, and applied AI projects.",
-  path: "/blog"
+    "Practical AI articles by Syed Sajjad Hussain on RAG, fine-tuning, vector databases, prompt engineering, LLM evaluation, and AI product builds.",
+  path: "/blog",
+  keywords: ["Applied AI blog", "RAG articles", "fine-tuning", "vector databases", "LLM evaluation"]
 });
 
 export default function BlogPage() {

@@ -6,10 +6,11 @@ import { profile } from "@/data/profile";
 import { createMetadata } from "@/lib/seo";
 
 export const metadata = createMetadata({
-  title: "Contact",
+  title: "Contact for Applied AI Engineer Roles",
   description:
-    "Contact Syed Sajjad Hussain for AI Engineer roles, GenAI projects, full-stack delivery, and practical AI product work.",
-  path: "/contact"
+    "Contact Syed Sajjad Hussain for Applied AI Engineer roles, GenAI projects, RAG systems, Python AI apps, full-stack delivery, and technical review.",
+  path: "/contact",
+  keywords: ["contact Syed Sajjad Hussain", "hire Applied AI Engineer", "GenAI engineer contact", "RAG engineer"]
 });
 
 const contactCards = [

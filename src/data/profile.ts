@@ -21,9 +21,9 @@ export const profile = {
     portfolio: "https://syedsajjadhussain.in/"
   },
   seo: {
-    title: "Syed Sajjad Hussain | Applied AI Engineer & Generative AI Developer",
+    title: "Syed Sajjad Hussain | Applied AI Engineer, GenAI, RAG & LLM Evaluation",
     description:
-      "Portfolio of Syed Sajjad Hussain, an Applied AI Engineer focused on LLM apps, RAG systems, AI evaluation, prompt engineering, fine-tuning concepts, Python, FastAPI, Streamlit, LangGraph, ChromaDB, React, Next.js, and polished full-stack products."
+      "Syed Sajjad Hussain is an Applied AI Engineer building LLM apps, RAG workflows, AI evaluation systems, Python products, and full-stack web systems."
   },
   badges: [
     "Applied AI Engineer",

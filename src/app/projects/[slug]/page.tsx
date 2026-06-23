@@ -25,7 +25,8 @@ export async function generateMetadata({ params }: ProjectPageProps) {
   return createMetadata({
     title: project.title,
     description: project.summary,
-    path: `/projects/${project.slug}`
+    path: `/projects/${project.slug}`,
+    keywords: [project.title, project.subtitle, project.category, ...project.tags, ...project.techStack.slice(0, 6)]
   });
 }
 

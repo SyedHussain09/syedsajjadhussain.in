@@ -7,10 +7,11 @@ import { profile } from "@/data/profile";
 import { createMetadata } from "@/lib/seo";
 
 export const metadata = createMetadata({
-  title: "Experience",
+  title: "Experience in Applied AI, LLM Evaluation & Product Delivery",
   description:
-    "Experience timeline for Syed Sajjad Hussain across AI product R&D, freelance full-stack delivery, micro1 AI evaluation, and DadiMa Superfood SEO/full-stack work.",
-  path: "/experience"
+    "Professional timeline for Syed Sajjad Hussain covering Applied AI R&D, micro1 LLM evaluation, client web delivery, and product platform work.",
+  path: "/experience",
+  keywords: ["Applied AI experience", "LLM evaluation experience", "AI product R&D", "client web delivery"]
 });
 
 export default function ExperiencePage() {

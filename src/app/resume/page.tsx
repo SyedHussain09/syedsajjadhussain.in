@@ -4,10 +4,11 @@ import { personJsonLd, profilePageJsonLd } from "@/lib/jsonld";
 import { createMetadata } from "@/lib/seo";
 
 export const metadata = createMetadata({
-  title: "Resume",
+  title: "Resume: Applied AI Engineer",
   description:
-    "Indexable AI Engineer resume for Syed Sajjad Hussain with LLM apps, RAG, Python, full-stack delivery, and selected project links.",
+    "Resume for Syed Sajjad Hussain, Applied AI Engineer with LLM apps, RAG systems, AI evaluation, Python, Streamlit, FastAPI, and project links.",
   path: "/resume",
+  keywords: ["Syed Sajjad Hussain resume", "Applied AI Engineer resume", "GenAI resume", "RAG engineer resume"],
   type: "profile"
 });
 

@@ -33,6 +33,7 @@ export async function generateMetadata({ params }: BlogPageProps) {
     title: post.title,
     description: post.description,
     path: `/blog/${post.slug}`,
+    keywords: [post.title, ...post.tags],
     type: "article"
   });
 }

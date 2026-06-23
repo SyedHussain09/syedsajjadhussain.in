@@ -7,10 +7,11 @@ import { itemListJsonLd } from "@/lib/jsonld";
 import { createMetadata } from "@/lib/seo";
 
 export const metadata = createMetadata({
-  title: "Projects",
+  title: "AI Projects, RAG Systems & Full-Stack Work",
   description:
-    "AI, GenAI, RAG, full-stack, SEO, e-commerce, portfolio, and client projects by Syed Sajjad Hussain.",
-  path: "/projects"
+    "Explore Syed Sajjad Hussain's AI, RAG, LLM evaluation, Python, full-stack, client, e-commerce, and portfolio projects with live links and case studies.",
+  path: "/projects",
+  keywords: ["AI projects", "RAG portfolio", "LLM apps", "Python AI projects", "full-stack projects"]
 });
 
 export default function ProjectsPage() {
