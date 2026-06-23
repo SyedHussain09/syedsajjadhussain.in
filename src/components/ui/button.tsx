@@ -21,7 +21,7 @@ const variants = {
 const sizes = {
   sm: "min-h-10 px-3 text-sm",
   md: "min-h-11 px-4 text-sm",
-  lg: "min-h-12 px-5 text-base",
+  lg: "min-h-12 px-4 text-sm sm:px-5 sm:text-base",
   icon: "size-11 p-0"
 };
 
@@ -30,6 +30,7 @@ export function Button({ className, variant = "primary", size = "md", ...props }
     <button
       className={cn(
         "inline-flex items-center justify-center gap-2 rounded-md font-semibold transition-colors disabled:pointer-events-none disabled:opacity-50",
+        "max-w-full whitespace-normal text-center leading-tight",
         variants[variant],
         sizes[size],
         className
@@ -58,6 +59,7 @@ export function LinkButton({
     <Link
       className={cn(
         "inline-flex items-center justify-center gap-2 rounded-md font-semibold transition-colors",
+        "max-w-full whitespace-normal text-center leading-tight",
         variants[variant],
         sizes[size],
         className

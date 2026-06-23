@@ -10,7 +10,7 @@ export function ResumeDrawer({ variant = "primary" }: { variant?: "primary" | "s
 
   return (
     <>
-      <Button type="button" variant={variant} size="lg" onClick={() => setOpen(true)}>
+      <Button type="button" variant={variant} size="lg" onClick={() => setOpen(true)} className="w-full min-[420px]:w-auto">
         <Download className="size-5" />
         Download Resume
       </Button>

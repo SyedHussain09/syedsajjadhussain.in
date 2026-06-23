@@ -42,17 +42,17 @@ export function Hero() {
               </span>
             ))}
           </div>
-          <div className="mt-7 flex flex-wrap gap-3">
-            <LinkButton href="/projects?filter=AI" size="lg">
+          <div className="mt-7 grid gap-3 min-[420px]:flex min-[420px]:flex-wrap">
+            <LinkButton href="/projects?filter=AI" size="lg" className="w-full min-[420px]:w-auto">
               View projects
               <ArrowUpRight className="size-5" />
             </LinkButton>
             <ResumeDrawer variant="secondary" />
-            <LinkButton href="/contact" variant="secondary" size="lg">
+            <LinkButton href="/contact" variant="secondary" size="lg" className="w-full min-[420px]:w-auto">
               <MessageCircle className="size-5" />
               Contact
             </LinkButton>
-            <LinkButton href={profile.links.linkedin} external variant="ghost" size="lg" className="border border-border bg-white">
+            <LinkButton href={profile.links.linkedin} external variant="ghost" size="lg" className="w-full border border-border bg-white min-[420px]:w-auto">
               <BriefcaseBusiness className="size-5" />
               LinkedIn
             </LinkButton>

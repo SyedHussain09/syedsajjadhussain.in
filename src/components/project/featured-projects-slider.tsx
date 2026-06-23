@@ -30,12 +30,12 @@ export function FeaturedProjectsSlider({ projects }: { projects: Project[] }) {
       </div>
       <div
         ref={ref}
-        className="-mx-4 flex snap-x gap-5 overflow-x-auto px-4 pb-4 thin-scrollbar"
+        className="flex snap-x gap-4 overflow-x-auto pb-4 thin-scrollbar sm:gap-5"
         tabIndex={0}
         aria-label="Featured AI projects slider"
       >
         {projects.map((project) => (
-          <div key={project.slug} className="w-[86vw] max-w-[420px] shrink-0 snap-start">
+          <div key={project.slug} className="w-[min(86vw,420px)] max-w-full shrink-0 snap-start">
             <ProjectCard project={project} compact />
           </div>
         ))}

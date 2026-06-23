@@ -15,13 +15,13 @@ export function ExperienceTimeline({ compact = false }: { compact?: boolean }) {
           <span className="absolute -left-[31px] top-7 hidden size-4 rounded-full border-4 border-[#fbfaf7] bg-accent shadow md:block" />
           <div className="grid gap-0 lg:grid-cols-[0.36fr_0.64fr]">
             <div className="bg-[linear-gradient(135deg,#eef8f5,#fff7e8)] p-5">
-              <div className="flex items-center justify-between gap-3">
+              <div className="flex flex-wrap items-center justify-between gap-3">
                 <span className="rounded-full border border-border bg-white px-3 py-1 text-xs font-bold uppercase tracking-[0.12em] text-muted">
                   0{index + 1}
                 </span>
-                <span className="inline-flex items-center gap-1 text-xs font-semibold text-muted">
+                <span className="inline-flex min-w-0 items-center gap-1 text-xs font-semibold text-muted">
                   <MapPin className="size-4" />
-                  {experience.location}
+                  <span className="truncate">{experience.location}</span>
                 </span>
               </div>
               <p className="mt-8 text-xs font-bold uppercase tracking-[0.18em] text-accent-2">

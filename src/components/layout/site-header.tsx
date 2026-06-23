@@ -18,8 +18,8 @@ export function SiteHeader() {
   return (
     <>
       <header className="sticky top-0 z-50 border-b border-border bg-[#fffdf8]/92 backdrop-blur-xl">
-        <div className="section-shell flex h-16 items-center justify-between gap-3">
-          <Logo />
+        <div className="section-shell flex h-16 min-w-0 items-center justify-between gap-2 sm:gap-3">
+          <Logo className="min-w-0 flex-1 sm:flex-none" />
           <nav className="hidden items-center gap-1 lg:flex" aria-label="Main navigation">
             {navItems.map((item) => (
               <Link
@@ -34,7 +34,7 @@ export function SiteHeader() {
               </Link>
             ))}
           </nav>
-          <div className="flex items-center gap-2">
+          <div className="flex shrink-0 items-center gap-2">
             <Button
               type="button"
               variant="secondary"
@@ -80,7 +80,7 @@ export function SiteHeader() {
                 <Search className="size-4" />
                 Search site
               </Button>
-              <LinkButton href={profile.whatsappUrl} external variant="dark">
+              <LinkButton href={profile.whatsappUrl} external variant="dark" className="w-full">
                 Contact
               </LinkButton>
             </nav>
