@@ -1,0 +1,77 @@
+<svg width="1600" height="1131" viewBox="0 0 1600 1131" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Educosys Generative AI Engineering training record</title>
+  <defs>
+    <linearGradient id="paper" x1="120" y1="74" x2="1458" y2="1046" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffdf8"/>
+      <stop offset="0.48" stop-color="#f8fbf8"/>
+      <stop offset="1" stop-color="#edf7f8"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="287" y1="162" x2="1307" y2="938" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#061a30"/>
+      <stop offset="1" stop-color="#0b3d42"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="263" y1="207" x2="1317" y2="903" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2fd4c3"/>
+      <stop offset="0.48" stop-color="#dcb45e"/>
+      <stop offset="1" stop-color="#5ca8ff"/>
+    </linearGradient>
+    <filter id="shadow" x="69" y="50" width="1462" height="1038" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#06172b" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1131" rx="34" fill="#f4f0e8"/>
+  <g filter="url(#shadow)">
+    <rect x="116" y="92" width="1368" height="948" rx="34" fill="url(#paper)"/>
+    <rect x="154" y="130" width="1292" height="872" rx="24" stroke="#0B2539" stroke-opacity="0.12" stroke-width="2"/>
+    <rect x="184" y="160" width="1232" height="812" rx="18" stroke="url(#accent)" stroke-width="6"/>
+  </g>
+  <path d="M236 266H1365" stroke="#0B2539" stroke-opacity="0.12" stroke-width="2"/>
+  <path d="M236 865H1365" stroke="#0B2539" stroke-opacity="0.12" stroke-width="2"/>
+  <g opacity="0.1">
+    <path d="M266 724C388 612 493 592 632 625C777 660 851 772 994 712C1118 661 1144 548 1274 527" stroke="#0B2539" stroke-width="4"/>
+    <path d="M273 396C415 484 526 511 670 452C828 388 893 267 1083 316C1152 334 1209 371 1267 430" stroke="#0B2539" stroke-width="4"/>
+  </g>
+  <g>
+    <rect x="245" y="204" width="178" height="54" rx="27" fill="#061A30"/>
+    <circle cx="282" cy="231" r="8" fill="#2FD4C3"/>
+    <circle cx="312" cy="231" r="8" fill="#DCB45E"/>
+    <circle cx="342" cy="231" r="8" fill="#91A7BF"/>
+    <text x="456" y="239" fill="#0B3D42" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="900" letter-spacing="8">EDUCOSYS</text>
+  </g>
+  <text x="760" y="369" text-anchor="middle" fill="#0B2539" font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700">Training Completion Record</text>
+  <text x="800" y="433" text-anchor="middle" fill="#667184" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800" letter-spacing="5">LIVE GENERATIVE AI ENGINEERING PROGRAM</text>
+  <text x="800" y="531" text-anchor="middle" fill="#0B2539" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">Presented to</text>
+  <text x="800" y="616" text-anchor="middle" fill="url(#ink)" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700">Syed Sajjad Hussain</text>
+  <path d="M468 651H1132" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  <text x="800" y="718" text-anchor="middle" fill="#394354" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="600">For completing project-based training across LLM applications, RAG workflows,</text>
+  <text x="800" y="760" text-anchor="middle" fill="#394354" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="600">LangGraph, vector databases, fine-tuning, MCP, and multimodal AI systems.</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900" letter-spacing="3">
+    <rect x="392" y="802" width="118" height="46" rx="23" fill="#E6F8F5" stroke="#B7DFD8"/>
+    <text x="431" y="832" fill="#0B675D">LLM</text>
+    <rect x="529" y="802" width="116" height="46" rx="23" fill="#F8F0DD" stroke="#E1C783"/>
+    <text x="568" y="832" fill="#8A641B">RAG</text>
+    <rect x="664" y="802" width="198" height="46" rx="23" fill="#EEF5FF" stroke="#B9D0F1"/>
+    <text x="698" y="832" fill="#315FAE">LANGGRAPH</text>
+    <rect x="881" y="802" width="118" height="46" rx="23" fill="#E6F8F5" stroke="#B7DFD8"/>
+    <text x="916" y="832" fill="#0B675D">MCP</text>
+    <rect x="1018" y="802" width="222" height="46" rx="23" fill="#F8F0DD" stroke="#E1C783"/>
+    <text x="1051" y="832" fill="#8A641B">FINE-TUNING</text>
+  </g>
+  <g>
+    <rect x="238" y="903" width="320" height="58" rx="10" fill="#F7FAFB" stroke="#D9E1E5"/>
+    <text x="262" y="939" fill="#667184" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" letter-spacing="3">STATUS</text>
+    <text x="365" y="939" fill="#0B2539" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800">Completed training</text>
+    <rect x="1043" y="903" width="320" height="58" rx="10" fill="#F7FAFB" stroke="#D9E1E5"/>
+    <text x="1067" y="939" fill="#667184" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" letter-spacing="3">RECORD</text>
+    <text x="1182" y="939" fill="#0B2539" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800">Course summary</text>
+  </g>
+  <g transform="translate(1257 338)">
+    <circle cx="0" cy="0" r="78" fill="#0B2539"/>
+    <circle cx="0" cy="0" r="84" stroke="url(#accent)" stroke-width="8"/>
+    <path d="M-34 29C-7 -8 7 -28 32 -28C56 -28 68 -5 95 29" transform="translate(-30 4)" stroke="#2FD4C3" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-18 -28H56" transform="translate(-30 4)" stroke="#FFFDF8" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="-49" cy="33" r="13" fill="#0B2539" stroke="#5CA8FF" stroke-width="8"/>
+    <circle cx="50" cy="33" r="13" fill="#0B2539" stroke="#DCB45E" stroke-width="8"/>
+    <circle cx="0" cy="-24" r="18" fill="#0B2539" stroke="#2FD4C3" stroke-width="9"/>
+  </g>
+</svg>

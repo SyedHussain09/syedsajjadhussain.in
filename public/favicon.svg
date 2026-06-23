@@ -1,0 +1,15 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Syed Sajjad Hussain favicon</title>
+  <rect width="512" height="512" rx="92" fill="#fffdf8"/>
+  <circle cx="256" cy="256" r="184" fill="#06172b"/>
+  <circle cx="256" cy="256" r="188" stroke="#d8ad4f" stroke-width="16"/>
+  <circle cx="256" cy="256" r="146" stroke="#fff7df" stroke-opacity="0.14" stroke-width="4"/>
+  <path d="M156 129C184 106 219 92 256 92C293 92 328 106 356 129" stroke="#d8ad4f" stroke-width="14" stroke-linecap="round"/>
+  <path d="M356 383C328 406 293 420 256 420C219 420 184 406 156 383" stroke="#d8ad4f" stroke-width="14" stroke-linecap="round"/>
+  <path d="M171 316L209 286L247 306L289 248L335 282" stroke="#52d9ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="171" cy="316" r="10" fill="#fffdf8" stroke="#52d9ff" stroke-width="5"/>
+  <circle cx="247" cy="306" r="9" fill="#fffdf8" stroke="#52d9ff" stroke-width="5"/>
+  <circle cx="289" cy="248" r="9" fill="#fffdf8" stroke="#52d9ff" stroke-width="5"/>
+  <circle cx="335" cy="282" r="10" fill="#fffdf8" stroke="#52d9ff" stroke-width="5"/>
+  <text x="256" y="282" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="128" font-weight="700" fill="#fffaf0">SSH</text>
+</svg>

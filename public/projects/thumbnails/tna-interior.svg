@@ -1,0 +1,19 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="900" fill="#f3efe8"/>
+  <path d="M0 760C170 665 318 825 486 732C656 638 710 542 900 592V900H0V760Z" fill="#3b6ea8" opacity=".12"/>
+  <path d="M0 148C124 86 205 137 315 92C433 44 510 48 630 88C752 128 803 88 900 42V0H0V148Z" fill="#fff" opacity=".55"/>
+  <rect x="60" y="58" width="780" height="784" rx="52" fill="#ffffff" opacity=".72" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="748" cy="154" r="72" fill="#8d6847" opacity=".12"/>
+  <circle cx="176" cy="704" r="92" fill="#3b6ea8" opacity=".12"/>
+  
+        <rect x="150" y="260" width="600" height="390" rx="34" fill="#fff" stroke="#8d6847" stroke-opacity=".24"/>
+        <path d="M205 610H695M250 610V430H520V610M520 495H650V610" stroke="#8d6847" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <rect x="280" y="460" width="198" height="120" rx="18" fill="#3b6ea8" opacity=".16"/>
+        <circle cx="610" cy="390" r="58" fill="#3b6ea8" opacity=".18"/>
+  <rect x="112" y="106" width="230" height="54" rx="27" fill="#fff" stroke="#8d6847" stroke-opacity=".22"/>
+  <circle cx="145" cy="133" r="9" fill="#8d6847"/>
+  <circle cx="174" cy="133" r="9" fill="#3b6ea8"/>
+  <circle cx="203" cy="133" r="9" fill="#8d6847" opacity=".35"/>
+  <text x="112" y="752" fill="#11131a" font-family="Inter, Arial, sans-serif" font-size="50" font-weight="800">TNA Interior</text>
+  <text x="114" y="804" fill="#626775" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650">Interior services</text>
+</svg>

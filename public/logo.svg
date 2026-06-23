@@ -1,0 +1,62 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Syed Sajjad Hussain Applied AI Engineer logo</title>
+  <defs>
+    <linearGradient id="bg" x1="76" y1="40" x2="432" y2="472" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffdf8"/>
+      <stop offset="0.56" stop-color="#f8f4ea"/>
+      <stop offset="1" stop-color="#eef3f6"/>
+    </linearGradient>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(184 138) rotate(53.28) scale(316.814)">
+      <stop stop-color="#173452"/>
+      <stop offset="0.56" stop-color="#071a30"/>
+      <stop offset="1" stop-color="#020b18"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="146" y1="96" x2="368" y2="424" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f6df92"/>
+      <stop offset="0.35" stop-color="#c6902e"/>
+      <stop offset="0.66" stop-color="#f7df95"/>
+      <stop offset="1" stop-color="#9a641b"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="130" y1="336" x2="382" y2="166" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#75fff2"/>
+    </linearGradient>
+    <filter id="shadow" x="56" y="52" width="400" height="416" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#07101f" flood-opacity="0.22"/>
+    </filter>
+    <filter id="textShadow" x="100" y="172" width="312" height="174" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#020711" flood-opacity="0.48"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="92" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="176" fill="url(#core)" filter="url(#shadow)"/>
+  <circle cx="256" cy="256" r="183" stroke="url(#gold)" stroke-width="10"/>
+  <circle cx="256" cy="256" r="145" stroke="#fff7df" stroke-opacity="0.12" stroke-width="2"/>
+  <path d="M156 129C184 106 219 92 256 92C293 92 328 106 356 129" stroke="url(#gold)" stroke-width="12" stroke-linecap="round"/>
+  <path d="M356 383C328 406 293 420 256 420C219 420 184 406 156 383" stroke="url(#gold)" stroke-width="12" stroke-linecap="round"/>
+  <path d="M104 256H138" stroke="url(#gold)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M374 256H408" stroke="url(#gold)" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="93" cy="256" r="12" fill="#fffdf8" stroke="url(#gold)" stroke-width="6"/>
+  <circle cx="419" cy="256" r="12" fill="#fffdf8" stroke="url(#gold)" stroke-width="6"/>
+  <g opacity="0.48">
+    <path d="M171 316L209 286L247 306L289 248L335 282" stroke="url(#cyan)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M197 331L247 306L294 337" stroke="#eafcff" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M216 190L249 216L297 185L341 213" stroke="#eafcff" stroke-opacity="0.48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="171" cy="316" r="7" fill="#fffdf8" stroke="#38bdf8" stroke-width="4"/>
+    <circle cx="209" cy="286" r="5" fill="#fffdf8" stroke="#75fff2" stroke-width="3"/>
+    <circle cx="247" cy="306" r="6" fill="#fffdf8" stroke="#38bdf8" stroke-width="4"/>
+    <circle cx="289" cy="248" r="6" fill="#fffdf8" stroke="#75fff2" stroke-width="4"/>
+    <circle cx="335" cy="282" r="7" fill="#fffdf8" stroke="#38bdf8" stroke-width="4"/>
+    <circle cx="197" cy="331" r="4" fill="#dffbff"/>
+    <circle cx="294" cy="337" r="4" fill="#dffbff"/>
+    <circle cx="216" cy="190" r="4" fill="#dffbff"/>
+    <circle cx="249" cy="216" r="4" fill="#dffbff"/>
+    <circle cx="297" cy="185" r="4" fill="#dffbff"/>
+    <circle cx="341" cy="213" r="4" fill="#dffbff"/>
+  </g>
+  <g filter="url(#textShadow)">
+    <text x="256" y="292" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="128" font-weight="700" fill="#fffaf0">SSH</text>
+  </g>
+  <circle cx="256" cy="93" r="8" fill="#fffdf8" stroke="url(#gold)" stroke-width="5"/>
+  <circle cx="256" cy="419" r="8" fill="#fffdf8" stroke="url(#gold)" stroke-width="5"/>
+</svg>
