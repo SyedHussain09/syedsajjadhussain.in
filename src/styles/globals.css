@@ -118,13 +118,7 @@ textarea {
 }
 
 .mobile-contact-cta {
-  bottom: max(0.75rem, env(safe-area-inset-bottom));
-}
-
-@media (max-width: 639px) {
-  main {
-    padding-bottom: calc(4.75rem + env(safe-area-inset-bottom));
-  }
+  bottom: max(1rem, calc(env(safe-area-inset-bottom) + 1rem));
 }
 
 .neural-grid {
