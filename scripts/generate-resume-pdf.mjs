@@ -263,7 +263,7 @@ function addParagraph(text, options = {}) {
 function addLabeledParagraph(label, body) {
   const size = 8.32;
   const lineHeight = 10.25;
-  const gap = 9;
+  const gap = 6;
   const labelWidth = drawText(label, marginX, y, { size, bold: true, color: colors.ink });
   const firstWidth = contentWidth - labelWidth - gap;
   const firstLines = wrapText(body, size, firstWidth);
@@ -337,7 +337,11 @@ function addExperience(item) {
 }
 
 function addProject(project) {
-  addLink(`${project.title} [Live]`, project.url, marginX, y, 8.65);
+  drawText(project.title, marginX, y, { size: 8.65, bold: true, color: colors.ink });
+  const liveLabel = "Live project";
+  const liveSize = 8.05;
+  const liveWidth = textWidth(liveLabel, liveSize, true);
+  addLink(liveLabel, project.url, pageWidth - marginX - liveWidth, y, liveSize, { bold: true });
   y -= 10.8;
   drawText(project.stack, marginX, y, { size: 8.1, color: colors.ink });
   y -= 10.1;
