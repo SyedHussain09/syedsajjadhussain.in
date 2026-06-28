@@ -8,8 +8,8 @@ const output = join(root, "public", "resume", "syed-sajjad-hussain-ai-engineer.p
 const pageWidth = 595;
 const pageHeight = 842;
 const marginX = 45;
-const topY = 794;
-const bottomY = 34;
+const topY = 804;
+const bottomY = 10;
 const contentWidth = pageWidth - marginX * 2;
 
 const colors = {
@@ -23,7 +23,7 @@ const colors = {
 const profile = {
   name: "Syed Sajjad Hussain",
   role: "Applied AI Engineer | GenAI / LLMs | RAG | Fine-tuning | Agentic AI",
-  availability: "Open to Global Relocation | Immediate Joiner",
+  availability: "Open to Global Relocation (Including GCC & SEZs) | Immediate Joiner",
   email: "syedsajjadhussain0014@gmail.com",
   phone: "+91 9641149521",
   linkedin: "https://www.linkedin.com/in/syedhussain014/",
@@ -62,6 +62,7 @@ const experiences = [
     title: "Full Stack Developer / Product Platform Developer (Contract)",
     company: "Econ Building Center / DadiMa Superfood",
     companyUrl: "https://dadimasuperfood.netlify.app/",
+    showCompanyInHeader: false,
     dates: "Jun 2026 - Present",
     bullets: [
       "Built a responsive product catalog platform with categories, variants, product detail pages, cart-style flow, compliance pages, and distributor/customer CTAs.",
@@ -261,7 +262,7 @@ function addParagraph(text, options = {}) {
 
 function addLabeledParagraph(label, body) {
   const size = 8.32;
-  const lineHeight = 10.0;
+  const lineHeight = 10.25;
   const gap = 9;
   const labelWidth = drawText(label, marginX, y, { size, bold: true, color: colors.ink });
   const firstWidth = contentWidth - labelWidth - gap;
@@ -274,13 +275,14 @@ function addLabeledParagraph(label, body) {
     drawText(line, marginX, y, { size, color: colors.ink });
     y -= lineHeight;
   });
+  y -= 0.5;
 }
 
 function addSection(title, gap = 9) {
   y -= gap;
   drawText(title.toUpperCase(), marginX, y, { size: 9.75, bold: true, color: colors.ink });
   drawLine(marginX, y - 5.2, pageWidth - marginX, y - 5.2, colors.rule, 0.6);
-  y -= 13;
+  y -= 15.5;
 }
 
 function addBullet(text, options = {}) {
@@ -288,7 +290,7 @@ function addBullet(text, options = {}) {
     x = marginX + 10,
     width = contentWidth - 16,
     size = 8.35,
-    lineHeight = 9.65,
+    lineHeight = 9.9,
     color = colors.ink
   } = options;
   drawText("-", marginX, y, { size, bold: true, color: colors.ink });
@@ -317,26 +319,28 @@ function addHeader() {
 }
 
 function addExperience(item) {
-  if (item.companyUrl) {
+  if (item.companyUrl && item.showCompanyInHeader !== false) {
     const titleWidth = drawText(`${item.title} |  `, marginX, y, { size: 8.75, bold: true, color: colors.ink });
     const x = marginX + titleWidth + 5;
     addLink(item.company, item.companyUrl, x, y, 8.75);
+  } else if (item.showCompanyInHeader === false) {
+    drawText(item.title, marginX, y, { size: 8.75, bold: true, color: colors.ink });
   } else {
     drawText(`${item.title} |  ${item.company}`, marginX, y, { size: 8.75, bold: true, color: colors.ink });
   }
-  y -= 11.2;
+  y -= 11.8;
   drawText(item.dates, marginX, y, { size: 8.15, color: colors.ink });
-  y -= 10.2;
+  y -= 10.8;
   item.bullets.forEach((bullet) => addBullet(bullet));
   drawText(`Stack: ${item.stack}`, marginX + 10, y, { size: 7.65, color: colors.lightMuted });
-  y -= 8.5;
+  y -= 10.2;
 }
 
 function addProject(project) {
   addLink(`${project.title} [Live]`, project.url, marginX, y, 8.65);
   y -= 10.8;
   drawText(project.stack, marginX, y, { size: 8.1, color: colors.ink });
-  y -= 9.6;
+  y -= 10.1;
   project.bullets.forEach((bullet) => addBullet(bullet));
 }
 
