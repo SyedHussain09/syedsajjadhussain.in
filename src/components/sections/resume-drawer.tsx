@@ -27,8 +27,8 @@ export function ResumeDrawer({ variant = "primary" }: { variant?: "primary" | "s
           <div className="ml-auto flex h-full max-w-lg flex-col overflow-hidden rounded-md bg-card shadow-2xl">
             <div className="flex items-center justify-between border-b border-border p-5">
               <div>
-                <p className="text-xs font-bold uppercase tracking-[0.2em] text-accent-2">Resume preview</p>
-                <h2 className="mt-2 text-2xl font-semibold">AI Engineer resume</h2>
+                <p className="text-xs font-bold uppercase tracking-[0.2em] text-accent-2">Resume</p>
+                <h2 className="mt-2 text-2xl font-semibold">AI systems, products, and delivery</h2>
               </div>
               <Button type="button" variant="ghost" size="icon" onClick={() => setOpen(false)} aria-label="Close resume drawer">
                 <X className="size-5" />
@@ -36,15 +36,15 @@ export function ResumeDrawer({ variant = "primary" }: { variant?: "primary" | "s
             </div>
             <div className="grid gap-4 p-5 text-sm leading-6 text-muted">
               <p>
-                One-page ATS-friendly resume focused on Applied AI Engineer, Generative AI, RAG, Python, LLM evaluation, and full-stack delivery.
+                A focused overview of my work building practical LLM applications, RAG workflows, Python tools, and production-ready web products for real users.
               </p>
               <div className="rounded-md border border-border bg-white p-4">
-                <p className="font-semibold text-foreground">Includes</p>
+                <p className="font-semibold text-foreground">Inside the resume</p>
                 <ul className="mt-2 grid gap-2">
-                  <li>3 selected project links plus portfolio</li>
-                  <li>All four experience entries in concise form</li>
-                  <li>AI / Python / Full-stack skills grouped for scanning</li>
-                  <li>Contact, education, achievements, and selected links</li>
+                  <li>Live AI projects across legal documents, finance, and media workflows</li>
+                  <li>Experience in LLM evaluation, prompt refinement, RAG, and client delivery</li>
+                  <li>Python, vector databases, full-stack development, and product execution</li>
+                  <li>Portfolio, contact details, education, achievements, and selected links</li>
                 </ul>
               </div>
             </div>
