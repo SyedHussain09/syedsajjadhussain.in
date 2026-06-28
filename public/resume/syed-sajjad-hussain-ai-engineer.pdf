@@ -4,7 +4,7 @@
 3 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
 4 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> endobj
 5 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Annots [7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >> endobj
-6 0 obj << /Length 11444 >> stream
+6 0 obj << /Length 11180 >> stream
 0.62 w
 0.050 0.055 0.070 rg BT /F2 15.4 Tf 211.00 804.00 Td (SYED SAJJAD HUSSAIN) Tj ET
 0.050 0.055 0.070 rg BT /F2 10.1 Tf 142.45 787.00 Td (Applied AI Engineer | GenAI / LLMs | RAG | Fine-tuning | Agentic AI) Tj ET
@@ -12,16 +12,12 @@
 0.200 0.230 0.290 rg BT /F1 8.25 Tf 125.37 756.80 Td (+91 9641149521) Tj ET
 0.200 0.230 0.290 rg BT /F1 8.25 Tf 190.35 756.80 Td ( | ) Tj ET
 0.020 0.200 0.760 rg BT /F1 8.25 Tf 202.19 756.80 Td (syedsajjadhussain0014@gmail.com) Tj ET
-q 0.020 0.200 0.760 RG 0.35 w 202.19 755.40 m 330.56 755.40 l S Q
 0.200 0.230 0.290 rg BT /F1 8.25 Tf 335.56 756.80 Td ( | ) Tj ET
 0.020 0.200 0.760 rg BT /F1 8.25 Tf 347.41 756.80 Td (Portfolio) Tj ET
-q 0.020 0.200 0.760 RG 0.35 w 347.41 755.40 m 381.40 755.40 l S Q
 0.200 0.230 0.290 rg BT /F1 8.25 Tf 386.40 756.80 Td ( | ) Tj ET
 0.020 0.200 0.760 rg BT /F1 8.25 Tf 398.25 756.80 Td (LinkedIn) Tj ET
-q 0.020 0.200 0.760 RG 0.35 w 398.25 755.40 m 428.12 755.40 l S Q
 0.200 0.230 0.290 rg BT /F1 8.25 Tf 433.12 756.80 Td ( | ) Tj ET
 0.020 0.200 0.760 rg BT /F1 8.25 Tf 444.96 756.80 Td (GitHub) Tj ET
-q 0.020 0.200 0.760 RG 0.35 w 444.96 755.40 m 469.63 755.40 l S Q
 0.050 0.055 0.070 rg BT /F2 9.75 Tf 45.00 739.80 Td (PROFESSIONAL SUMMARY) Tj ET
 q 0.060 0.060 0.060 RG 0.6 w 45.00 734.60 m 550.00 734.60 l S Q
 0.050 0.055 0.070 rg BT /F1 8.45 Tf 45.00 724.30 Td (Applied AI Engineer and B.Tech CSE graduate focused on LLM applications, RAG workflows, prompt evaluation, fine-tuning concepts,) Tj ET
@@ -137,15 +133,15 @@ xref
 0000000185 00000 n 
 0000000260 00000 n 
 0000000459 00000 n 
-0000011956 00000 n 
-0000012120 00000 n 
-0000012275 00000 n 
-0000012444 00000 n 
-0000012603 00000 n 
-0000012766 00000 n 
-0000012924 00000 n 
-0000013084 00000 n 
+0000011692 00000 n 
+0000011856 00000 n 
+0000012011 00000 n 
+0000012180 00000 n 
+0000012339 00000 n 
+0000012502 00000 n 
+0000012660 00000 n 
+0000012820 00000 n 
 trailer << /Size 15 /Root 1 0 R >>
 startxref
-13240
+12976
 %%EOF

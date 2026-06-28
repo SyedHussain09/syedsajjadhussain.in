@@ -217,7 +217,7 @@ function addLink(label, url, x, baseline, size = 8.2, options = {}) {
     bold: options.bold ?? true,
     color: colors.link,
     link: url,
-    underline: true
+    underline: options.underline ?? true
   });
 }
 
@@ -236,7 +236,7 @@ function addCenteredContactLine(parts, baseline, size = 8.0) {
       x += pad;
     }
     if (part.url) {
-      x += addLink(part.label, part.url, x, baseline, size, { bold: false });
+      x += addLink(part.label, part.url, x, baseline, size, { bold: false, underline: false });
     } else {
       x += drawText(part.label, x, baseline, { size, color: colors.muted });
     }
